@@ -1,0 +1,15 @@
+*{box-sizing:border-box}
+body{font-family:system-ui,sans-serif;background:#eef2f7;margin:0;display:flex;justify-content:center;padding:40px 16px}
+.app{background:#fff;width:100%;max-width:480px;padding:28px;border-radius:14px;box-shadow:0 4px 18px rgba(0,0,0,.1)}
+h1{margin:0;color:#1f3a5f}.sub{color:#667;margin:4px 0 20px}
+form{display:flex;gap:8px}
+input[type=text]{flex:1;padding:10px;border:1px solid #ccd;border-radius:8px;font-size:1rem}
+button{padding:10px 14px;border:0;border-radius:8px;background:#2f6fed;color:#fff;cursor:pointer}
+.filtros{display:flex;gap:6px;margin:16px 0}
+.filtros button{background:#e3e8f0;color:#334}
+.filtros .activo{background:#1f3a5f;color:#fff}
+ul{list-style:none;padding:0;margin:0}
+li{display:flex;align-items:center;gap:10px;padding:10px 0;border-bottom:1px solid #eee}
+li span{flex:1}li.hecha span{text-decoration:line-through;color:#99a}
+li .del{background:#e5484d;padding:4px 10px}
+#contador{color:#667;font-size:.9rem;margin-top:14px}

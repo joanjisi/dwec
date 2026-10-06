@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>TaskList - DWEC</title>
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+  <main class="app">
+    <h1>TaskList</h1>
+    <p class="sub">Gestor de tareas en JavaScript</p>
+    <form id="form">
+      <input id="input" type="text" placeholder="Nueva tarea..." required>
+      <button type="submit">Añadir</button>
+    </form>
+    <div class="filtros">
+      <button data-f="todas" class="activo">Todas</button>
+      <button data-f="pendientes">Pendientes</button>
+      <button data-f="hechas">Hechas</button>
+    </div>
+    <ul id="lista"></ul>
+    <p id="contador"></p>
+  </main>
+  <script src="js/app.js"></script>
+</body>
+</html>
